@@ -16,6 +16,10 @@ body {
 	align-items: center;
 	justify-content: space-between;
 }
+
+.main {
+	background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
+}
 .input {
 	background-attachment: #ffffff;
 	border: 1px solid #d9d9d9;
@@ -225,4 +229,26 @@ body {
 
 .card-info {
 	margin-right: 10px;
+}
+
+.footer {
+	padding: 60px 0;
+}
+
+.footer-link {
+	display: inline-block;
+	color: #595959;
+	text-decoration: none;
+	transition: color 0.4s;
+
+}
+
+.footer-link:not(:last-child){
+	margin-left: 15px;
+}
+
+.footer-block {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
