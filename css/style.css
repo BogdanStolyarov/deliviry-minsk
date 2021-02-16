@@ -233,22 +233,39 @@ body {
 
 .footer {
 	padding: 60px 0;
+
+}
+
+.footer-nav {
+	margin:auto;
+	margin-left: 35px;
+
 }
 
 .footer-link {
 	display: inline-block;
-	color: #595959;
+	
 	text-decoration: none;
 	transition: color 0.4s;
+	color: #595959;
 
 }
 
 .footer-link:not(:last-child){
-	margin-left: 15px;
+	margin-right: 15px;
 }
 
 .footer-block {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+.social-links {
+	display: flex;
+	align-items: center;
+}
+
+.social-link:not(:last-child){
+	margin-right: 21px;
 }
