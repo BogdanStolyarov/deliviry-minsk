@@ -7,13 +7,14 @@ body {
 	padding-top: 40px;
 }
 .container {
-	max-width: 1200px;
+	max-width: 1300px;
 	margin: 0 auto;
 }
 
 .header {
 	display: flex;
-	top: 0;
+	width: 1300px;
+	top: 10px;
 	position: fixed;
 	align-items: center;
 	justify-content: space-between;
@@ -156,6 +157,7 @@ body {
 	margin-bottom: 45px;
 	cursor: pointer;
 }
+
 
 .card-image {
 	width: 384px;
